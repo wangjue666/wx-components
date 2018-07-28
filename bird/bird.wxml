@@ -1,0 +1,14 @@
+<view class="globe">
+    <view class="bird">
+        <view class="body">
+            <view class="eye left"></view>
+            <view class="eye right"></view>
+            <view class="beak"><view></view></view>
+            <view class="feet"></view>
+            <view class="wire"></view>
+        </view>
+        <view class="hills"></view>
+        <view class="cloud"></view>
+        <view class="cloud small"></view>
+    </view>
+</view>
