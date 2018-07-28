@@ -1,0 +1,20 @@
+<view class="fan-wrap"  bindtap="switchedChange">
+    <view class="ground-plane"></view>
+    <view class="fan">
+        <view class="head">
+            <view class="blades" style="{{bChecked?'animation: spin .3s linear infinite;':''}}">
+                <view class="blade"></view>
+                <view class="blade"></view>
+                <view class="blade"></view>
+            </view>
+            <view class="cover"></view>
+            <view class="center"></view>
+        </view>
+        <view class="support"></view>
+        <view class="base"></view>
+        <label class="{{bChecked?'switch active':'switch'}}">
+            <switch checked/>
+        </label>
+    </view>
+
+</view>
