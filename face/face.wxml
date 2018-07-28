@@ -1,0 +1,20 @@
+<view class="dialog">
+    <view class="bot"></view>
+</view>
+<view class="emoji-wrap">
+    <view class="emoji  emoji--yay">
+        <view class="emoji__face">
+            <view class="emoji__eyebrows"></view>
+            <view class="emoji__mouth"></view>
+        </view>
+    </view>
+</view>
+
+
+<!--<view class="emoji  emoji&#45;&#45;sad">-->
+    <!--<view class="emoji__face">-->
+        <!--<view class="emoji__eyebrows"></view>-->
+        <!--<view class="emoji__eyes"></view>-->
+        <!--<view class="emoji__mouth"></view>-->
+    <!--</view>-->
+<!--</view>-->
