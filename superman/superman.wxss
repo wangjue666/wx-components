@@ -1,0 +1,71 @@
+.superman-wrap{
+    width:200rpx;
+    height:200rpx;
+    position:absolute;
+    right:0rpx;
+    bottom:0;
+    animation:superman_fly 20s ease-in-out infinite;
+}
+.superman {
+    /*animation:superman_fadeout 10s ease-in-out infinite;*/
+    background-color: #e8b290;
+    box-shadow: 1em 0 0 0 #e8b290, 2em 0 0 0 #e8b290, 0 1em 0 0 #f7c4a9, 1em 1em 0 0 #f7c4a9, 2em 1em 0 0 #f7c4a9, 0 -1em 0 0 #f7c4a9, 1em -1em 0 0 #f7c4a9, 2em -1em 0 0 #f7c4a9, -1em 0 0 0 #f7c4a9, 3em 0 0 0 #f7c4a9, -1em -1em 0 0 #f7c4a9, 3em -1em 0 0 #f7c4a9, -1em 1em 0 0 #f7c4a9, 3em 1em 0 0 #f7c4a9, -2em -1em 0 0 #f7c4a9, -2em 0 0 0 #f7c4a9, -2em 1em 0 0 #f7c4a9, -2em -2em 0 0 #000000, -1em -2em 0 0 #f7c4a9, 0 -2em 0 0 #f7c4a9, 1em -2em 0 0 #f7c4a9, 2em -2em 0 0 #f7c4a9, 3em -2em 0 0 #f7c4a9, 4em -2em 0 0 #000000, 4em -1em 0 0 #f7c4a9, 5em -1em 0 0 #f7c4a9, 5em 0 0 0 #f7c4a9, 5em -2em 0 0 #f7c4a9, 5em -3em 0 0 #f7c4a9, 4em -3em 0 0 #f7c4a9, 3em -3em 0 0 #f7c4a9, 2em -3em 0 0 #f7c4a9, 1em -3em 0 0 #0f1434, 0 -3em 0 0 #f7c4a9, -1em -3em 0 0 #f7c4a9, 2em -4em 0 0 #0e1339, 3em -4em 0 0 #f7c4a9, 4em -4em 0 0 #f7c4a9, -1em -4em 0 0 #f7c4a9, 0 -4em 0 0 #f7c4a9, 1em -4em 0 0 #f7c4a9, -2em -3em 0 0 #f7c4a9, -3em -3em 0 0 #f7c4a9, -3em -4em 0 0 #0e1339, -2em -4em 0 0 #0e1339, -2em -5em 0 0 #0e1339, -1em -5em 0 0 #0e1339, 0 -5em 0 0 #0e1339, 1em -5em 0 0 #0e1339, 2em -5em 0 0 #0e1339, 3em -5em 0 0 #0e1339, 4em -5em 0 0 #0e1339, 5em -5em 0 0 #0e1339, 5em -4em 0 0 #0e1339, 6em -4em 0 0 #0e1339, 7em -4em 0 0 #0e1339, 7em -3em 0 0 #0e1339, 7em -2em 0 0 #0e1339, 7em -1em 0 0 #d1906a, 7em 0 0 0 #d1906a, 7em 1em 0 0 #d1906a, 5em 2em 0 0 #d1906a, 6em 2em 0 0 #d1906a, 4em 3em 0 0 #d1906a, 3em 3em 0 0 #e8b290, 2em 3em 0 0 #f6c4a9, 1em 3em 0 0 #f6c4a9, 2em 4em 0 0 #f6c4a9, 1em 4em 0 0 #c82129, 0 4em 0 0 #c82129, 3em 4em 0 0 #c82129, 4em 4em 0 0 #c82129, 5em 4em 0 0 #c82129, 6em 4em 0 0 #a31c22, 6em 5em 0 0 #084267, 6em 6em 0 0 #084267, 6em 7em 0 0 #efb286, 5em 7em 0 0 #00609d, 5em 6em 0 0 #00609d, 5em 5em 0 0 #00609d, 4em 5em 0 0 #00609d, 4em 6em 0 0 #00609d, 4em 7em 0 0 #00609d, 3em 7em 0 0 #00609d, 2em 7em 0 0 #00609d, 1em 7em 0 0 #00609d, 0 7em 0 0 #00609d, 0 6em 0 0 #00609d, 1em 6em 0 0 #00609d, 1em 5em 0 0 #00609d, 0 5em 0 0 #00609d, -1em 5em 0 0 #00609d, -1em 6em 0 0 #0a4361, -1em 7em 0 0 #fcbfad, 0 8em 0 0 #fdce04, 1em 8em 0 0 #c3212e, 2em 8em 0 0 #fdce04, 3em 8em 0 0 #fdce04, 4em 8em 0 0 #c3212e, 5em 8em 0 0 #fdce04, 5em 9em 0 0 #004b60, 5em 10em 0 0 #a31c23, 4em 10em 0 0 #c22629, 4em 9em 0 0 #005d96, 3em 9em 0 0 #992122, 2em 9em 0 0 #992122, 1em 9em 0 0 #005e9e, 0 9em 0 0 #005e9e, 0 10em 0 0 #ca2126, 1em 10em 0 0 #ca2126, 4em 0 0 0 #f7c4a9, 4em 1em 0 0 #f7c4a9, -3em -2em 0 0 #f7c4a9, -3em -1em 0 0 #f7c4a9, -3em 0 0 0 #f7c4a9, -3em 1em 0 0 #f7c4a9, -2em 2em 0 0 #f7c4a9, -1em 2em 0 0 #f7c4a9, 0 2em 0 0 #f7c4a9, 1em 2em 0 0 #f7c4a9, 2em 2em 0 0 #f7c4a9, 3em 2em 0 0 #f7c4a9, 4em 2em 0 0 #e8b290, 5em 1em 0 0 #e8b290, 6em 1em 0 0 #e8b290, 6em 0 0 0 #e8b290, 6em -1em 0 0 #e8b290, 6em -2em 0 0 #e8b290, 6em -3em 0 0 #e8b290, 6em -5em 0 0 #0e1434, 5em -6em 0 0 #0e1434, 4em -6em 0 0 #0e1434, 3em -6em 0 0 #0e1434, 2em -6em 0 0 #0e1434, 1em -6em 0 0 #0e1434, 0 -6em 0 0 #0e1434, -1em -6em 0 0 #0e1434, 2em 5em 0 0 #c42521, 2em 6em 0 0 #ffcb00, 3em 5em 0 0 #ffcb00, 3em 6em 0 0 #c42521, 7em 6em 0 0 #7f1517, 7em 5em 0 0 #7f1517, 7em 7em 0 0 #7f1517, 6em 9em 0 0 #7f1517, 6em 8em 0 0 #7f1517, 7em 8em 0 0 #7f1517, 8em 6em 0 0 #a31c20, 8em 7em 0 0 #a31c20, 8em 8em 0 0 #cb2026, 9em 8em 0 0 #a41b23, 8em 9em 0 0 #a41b23, 7em 9em 0 0 #a41b23;
+    height: 1em;
+    left:0%;
+    position: absolute;
+    top:0%;
+    width: 1em;
+    transform: scale(0.1);
+}
+
+.superman:after {
+    animation: 3s ease-in-out 0s normal none infinite superman_shadow;
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 50%;
+    bottom: -201px;
+    content: "";
+    height: 20px;
+    left: -24px;
+    opacity: 0.2;
+    position: absolute;
+    width: 165px;
+
+}
+@keyframes superman_fly{
+    0% {
+        transform:translate(0rpx,0rpx);
+    }
+    20%{
+        transform:rotateY(0) translate(-700rpx,-800rpx);
+    }
+    70%{
+        transform: rotateY(180deg)translate(500rpx,-800rpx);
+    }
+    90%{
+        transform: rotateY(180deg)translate(-3000rpx,-800rpx);
+    }
+
+    /*60%{*/
+        /*transform:rotateY(180deg) translate(00rpx,0rpx);*/
+    /*}*/
+    /*65%{*/
+          /*transform:translate(10000rpx,200rpx);*/
+    /*}*/
+    /*100%{*/
+        /*transform:translate(0rpx,0rpx);*/
+    /*}*/
+}
+@keyframes superman_fadeout{
+    0% {
+       opacity:1;
+       transform:scale(0.32);
+    }
+    100%{
+        opacity:0;
+        transform:scale(0.1);
+    }
+}
+@keyframes superman_shadow {
+    50% { transform: translateY(20px) scale(1); opacity:.05; }
+}
+
