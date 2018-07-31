@@ -1,0 +1,39 @@
+<view class="container">
+    <view class="chimney">
+        <view class="cTop">
+            <view class="vapour"></view>
+        </view>
+        <view class="cBot"></view>
+    </view>
+    <view class="ceils">
+        <view class="ceiling">
+            <view class="cover"></view>
+        </view>
+        <view class="ceiling">
+            <view class="cover"></view>
+        </view>
+    </view>
+    <view class="body">
+        <view class="top">
+            <view class="h"></view>
+            <view class="v"></view>
+        </view>
+        <view class="door">
+            <view class="knob"></view>
+        </view>
+        <view class="window">
+            <view class="h"></view>
+            <view class="v"></view>
+            <view class="support"></view>
+        </view>
+    </view>
+    <view class="floor"></view>
+    <view class="tree">
+        <view class="main">
+            <view class="branch"></view>
+            <view class="branch"></view>
+        </view>
+        <view class="stem"></view>
+    </view>
+    <view class="ground"></view>
+</view>
